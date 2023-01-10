@@ -1,0 +1,17 @@
+@media  screen and (max-width:992px) {
+    .wrapper {
+        padding: 0 5px;
+    }
+}
+
+@media  screen and (max-width:992px) {
+    .bottom {
+        padding: 0 5px;
+    }
+}
+
+@media  screen and (max-width:576px) {
+    .footer {
+        flex-direction: column;
+    }
+}
