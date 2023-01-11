@@ -64,10 +64,6 @@ body{
     border: none;
     margin: 15px 0;
 }
-.card img{
-    height: 256px;
-    width: 308px;
-}
 
 .card-body {
     padding-left: 0;

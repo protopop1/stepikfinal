@@ -44,16 +44,3 @@
     }
 }
 
-@media  screen and (max-width:992px) {
-    .card img {
-        width: 368px;
-        height: 256px;
-
-    }
-}
-@media  screen and (max-width:992px) {
-    .card  {
-        width: 366px;
-
-    }
-}
