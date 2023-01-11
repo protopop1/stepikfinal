@@ -169,19 +169,21 @@ hr {
     margin-top: 25px;
     display: flex;
     justify-content: space-around;
+
 }
 .footer a, .footer p{
     color: #FFFFFF !important;
     margin-bottom: 35px;
+    font-size: 11px;
 
 }
 
 .scroll-top {
     position: fixed;
     right: 17%;
-    bottom: 10px;
+    bottom: 15px;
     background-color: #59BD5A;
-    padding: 15px 35px 20px 35px;
+    padding: 12px 32px 18px 32px;
     color: white;
     font-size: 40px;
     display: none;

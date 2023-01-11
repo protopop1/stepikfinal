@@ -29,3 +29,17 @@
         height: 36px;
     }
 }
+
+@media  screen and (max-width:576px) {
+    .scroll-top {
+        position: fixed;
+        right: 17%;
+        bottom: 15px;
+        background-color: #59BD5A;
+        padding: 15px 25px 20px 25px;
+        color: white;
+        font-size: 25px;
+        display: none;
+
+    }
+}
