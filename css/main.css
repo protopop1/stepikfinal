@@ -145,6 +145,11 @@ hr {
     margin: 0 0 15px 0;
 
 }
+.midl-sec a, .right-sec a  {
+    color: white;
+    text-decoration: none;
+
+}
 .midl-sec ul, .right-sec ul {
     padding-left: 0;
 }
