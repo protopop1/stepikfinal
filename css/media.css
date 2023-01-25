@@ -66,26 +66,32 @@
         margin: 25px 0;
     }
 }
-@media  screen and (max-width:576px) {
-    .cards .card-body * {
-        margin: 15px 0;
-    }
-}
-@media  screen and (max-width:576px) {
-    .cards .card-body h6 {
-       font-size: 48px;
+/*@media  screen and (max-width:576px) {*/
+/*    .cards .card-body * {*/
+/*        margin: 15px 0;*/
+/*    }*/
+/*}*/
+/*@media  screen and (max-width:576px) {*/
+/*    .cards .card-body h6 {*/
+/*       font-size: 48px;*/
 
-    }
-}
-@media  screen and (max-width:576px) {
-    .cards .card-body span {
-        font-size: 42px;
+/*    }*/
+/*}*/
+/*@media  screen and (max-width:576px) {*/
+/*    .cards .card-body span {*/
+/*        font-size: 42px;*/
 
-    }
-}
+/*    }*/
+/*}*/
+/*@media  screen and (max-width:576px) {*/
+/*    .cards .card-body p {*/
+/*        font-size: 48px;*/
+/*    }*/
+/*}*/
 @media  screen and (max-width:576px) {
-    .cards .card-body p {
-        font-size: 48px;
+    .cards .card img {
+        height: 246px;
+        width: 308px;
     }
 }
 
