@@ -1,176 +1,210 @@
-.main-wrapper{
+.main-wrapper {
     width: 1124px;
-    margin:0 auto!important;
+    margin: 0 auto !important;
     position: relative;
 }
-p, span h1, h2,h3,h4,h5,h6 {
+
+p, span h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
 }
-span{
+
+span {
     font-size: 14px;
-    color:#626262;
+    color: #626262;
 }
 
-h4{
+h4 {
     font-size: 22px;
     color: #1D1D1D;
 }
-body{
+
+body {
     background-color: whitesmoke;
 }
 
-.wrapper{
+.wrapper {
     padding: 0 81px;
 }
 
-.header{
+.header {
     background-color: white;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
     flex-wrap: nowrap;
 }
-.logo-left img{
+
+.logo-left img {
     width: 120px;
     height: 15px;
 }
-.logo-right button{
-    border: #E0E0E0 solid 1px!important;
-    padding: 10px 15px!important;
+
+.logo-right button {
+    border: #E0E0E0 solid 1px !important;
+    padding: 10px 15px !important;
     margin-right: 15px;
 }
-.main{
-    margin-top: 15px;
+
+.main {
+
     background-color: white;
 }
-.search{
-    padding:35px 0;
+
+.search {
+    padding: 35px 0;
 }
-.form-control{
+
+.form-control {
     border: none;
     border-bottom: #6c757d solid 2px;
 }
-.rest-name{
+
+.rest-name {
     margin: 25px 0 15px 15px;
 }
-.cards{
-    margin: 15px 0;
-}
-.card{
-    border: none;
+
+.cards {
     margin: 15px 0;
 }
 
-.card-body {
+.cards .card {
+    border: none;
+}
+.cards .card {
+    border: none;
+}
+
+.cards .card .card-body {
     padding-left: 0;
 }
-.card-body span{
+
+.card-body span {
     font-size: 14px;
 }
-.card-body p{
+
+.card-body p {
     margin: 0;
     font-size: 10px;
     color: black;
 }
-.card-body h6{
+
+.card-body h6 {
     font-size: 16px;
     color: #1D1D1D;
     font-weight: 400;
     margin: 0;
 }
-.card-first, .card-second, .cards-thirds{
-    margin-top:20px;
+
+.card-first, .card-second, .cards-thirds {
+    margin-top: 20px;
 }
-.card-first, .card-second, .cards-thirds, a{
-    text-decoration: none!important;
+
+.card-first, .card-second, .cards-thirds, a {
+    text-decoration: none !important;
 }
-.bottom{
+
+.bottom {
     background-color: #262626;
 }
-.logo-black{
+
+.logo-black {
     margin: 45px 0;
 }
+
 hr {
-    border: #FFFFFF solid 1px ;
+    border: #FFFFFF solid 1px;
     margin: 0;
 }
 
-.drop{
+.drop {
     background-color: #3B3B3B;
     display: flex;
     align-items: center;
-    padding: 10px  5px 10px 10px;
+    padding: 10px 5px 10px 10px;
 
 }
 
-.custom-select{
+.custom-select {
     background-color: #3B3B3B;
     width: 100%;
     color: white;
     border: none;
 }
-.drop img{
+
+.drop img {
     width: 18px;
     height: 18px;
     margin: 0 10px;
 }
-.subs{
+
+.subs {
     margin-top: 28px;
 }
-.subs span{
+
+.subs span {
     color: #57AD56;
 }
-.subs p{
+
+.subs p {
     color: white;
     margin-bottom: 12px;
 }
-.subs img{
-    margin-right:8px;
+
+.subs img {
+    margin-right: 8px;
     height: 25px;
 }
+
 .sec {
     margin-top: 35px;
 }
-.left-sec{
+
+.left-sec {
     margin-bottom: 10px;
 }
-.midl-sec ul li, .right-sec ul li  {
+
+.midl-sec ul li, .right-sec ul li {
     color: white;
     list-style: none;
     margin: 0 0 15px 0;
 
 }
-.midl-sec a, .right-sec a  {
+
+.midl-sec a, .right-sec a {
     color: white;
     text-decoration: none;
 
 }
+
 .midl-sec ul, .right-sec ul {
     padding-left: 0;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 35px 0;
 }
-.button img{
+
+.button img {
     height: 52px;
     margin: 0 10px;
     border-radius: 8px;
 }
 
-.footer{
+.footer {
     margin-top: 25px;
     display: flex;
     justify-content: space-around;
 
 }
-.footer a, .footer p{
+
+.footer a, .footer p {
     color: #FFFFFF !important;
     margin-bottom: 35px;
     font-size: 11px;
@@ -188,6 +222,123 @@ hr {
     display: none;
 
 }
-.scroll-top:hover{
+
+.scroll-top:hover {
     cursor: pointer;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-name {
+    position: absolute;
+    background-color: white;
+    padding: 38px;
+
+    top: 50px;
+    left: 60px;
+}
+
+.banner-name h2 {
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-bot p {
+    margin: 0;
+    font-size: 14px;
+    color: #626262;
+}
+
+.banner-name .time {
+    background: #262626;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+
+}
+
+.banner-name .time p {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+}
+
+.nav {
+    background-color: white;
+    margin-bottom: 2px;
+}
+.navbar-nav{
+    padding: 15px 0;
+}
+.navbar-nav .nav-link {
+    font-size: 16px;
+   color: #626262;
+    margin-right:15px;
+
+}
+
+.navbar-nav .nav-link.active {
+    color: #327430 !important;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.section-name {
+    padding: 45px 0 0 0;
+}
+
+.section-name h2 {
+    font-size: 22px;
+}
+.cards-pysh{
+    padding: 10px 0 65px 0;
+}
+.cards-pysh .row .card {
+    display: flex;
+    flex-direction: row;
+    height: 160px;
+}
+
+.cards-pysh .card-img-top {
+    height: 160px;
+    width: 170px;
+}
+
+.cards-pysh .card {
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    background: white;
+    padding-right: 0;
+    border-radius: 0;
+}
+.cards-pysh .card:hover{
+background: rgb(250, 250, 250);
+}
+.cards-pysh .card-text {
+    font-size: 16px;
+}
+
+.cards-pysh .cost {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cards-pysh .card-body span {
+    font-size: 13px;
+    color: #626262;
 }

@@ -1,17 +1,17 @@
-@media  screen and (max-width:576px) {
-    .main-wrapper{
-        width: 320px;
-        margin:0 auto!important;
-        position: relative;
-    }
-}
-@media  screen and (max-width:992px) {
+/*@media  screen and (max-width:576px) {*/
+/*    .main-wrapper{*/
+/*        width: 320px;*/
+/*        margin:0 auto!important;*/
+/*        position: relative;*/
+/*    }*/
+/*}*/
+@media  screen and (max-width:768px) {
     .wrapper {
         padding: 0 10px;
     }
 }
 
-@media  screen and (max-width:992px) {
+@media  screen and (max-width:768px) {
     .bottom {
         padding: 0 5px;
     }
@@ -41,6 +41,51 @@
         font-size: 25px;
         display: none;
 
+    }
+}
+
+
+@media  screen and (max-width:992px) {
+    .navbar-nav{
+        flex-direction: row!important;
+    }
+}
+@media  screen and (max-width:576px) {
+    .navbar-nav{
+        display: none;
+    }
+}
+@media  screen and (max-width:576px) {
+    .logo-right a{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:576px) {
+    .cards .card {
+        margin: 25px 0;
+    }
+}
+@media  screen and (max-width:576px) {
+    .cards .card-body * {
+        margin: 15px 0;
+    }
+}
+@media  screen and (max-width:576px) {
+    .cards .card-body h6 {
+       font-size: 48px;
+
+    }
+}
+@media  screen and (max-width:576px) {
+    .cards .card-body span {
+        font-size: 42px;
+
+    }
+}
+@media  screen and (max-width:576px) {
+    .cards .card-body p {
+        font-size: 48px;
     }
 }
 
