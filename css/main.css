@@ -16,6 +16,7 @@ span {
 h4 {
     font-size: 22px;
     color: #1D1D1D;
+
 }
 
 body {
@@ -28,8 +29,13 @@ body {
 
 .header {
     background-color: white;
-}
 
+
+}
+.shadow{
+    height: 5px;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16) !important;
+}
 .logo {
     display: flex;
     justify-content: space-between;
@@ -98,6 +104,7 @@ body {
 
 .main {
     background-color: white;
+    border-top-color: #6c757d ;
 }
 
 .search {
