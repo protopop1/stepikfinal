@@ -339,6 +339,10 @@ hr {
     font-size: 15px;
     font-weight: bold;
 }
+.cards-pysh .cost p{
+    font-size: 15px;
+    font-weight: bold;
+}
 .cards-pysh .card-body{
    display: flex;
     flex-direction: column;

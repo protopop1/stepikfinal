@@ -123,6 +123,7 @@
         font-size: 26px;
     }
 }
+
 @media screen and (max-width: 320px){
     .hero {
         height: 255px;
@@ -159,7 +160,7 @@
 @media screen and (max-width: 320px) {
     .cards-pysh .row .card{
         height: 102px;
-        width: 308px;
+        max-width: 100%;
     }
 }
 
